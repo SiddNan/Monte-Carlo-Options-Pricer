@@ -46,7 +46,7 @@ htmlcov/
 .ipynb_checkpoints/
 *.ipynb
 
-# Documentation
+# Documentation (keep only essential docs)
 docs/_build/
 site/
 
@@ -76,3 +76,15 @@ temp/
 # OS
 .DS_Store
 Thumbs.db
+
+# Helper/Meta files - DO NOT COMMIT THESE
+AI_DETECTION_CHECKLIST.md
+FINAL_CHECKLIST.md
+verify_before_push.sh
+fix_and_push.sh
+fix_author.sh
+PUSH_TO_GITHUB.sh
+PROJECT_STATUS.md
+QUICK_DEPLOY.md
+START_HERE.md
+DEPLOYMENT_STEPS.md
